@@ -1,0 +1,83 @@
+.docdetail-container {
+  .details-heading {
+    color: #181818;
+  }
+
+  .btn-gray {
+    display: inline-flex;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 400;
+  }
+
+  .left-part {
+    .step-content {
+        box-shadow: none;
+    }
+    .file {
+      position: relative;
+      display: flex;
+      align-items: center;
+
+      input[type="file"] {
+        display: none;
+      }
+
+      label {
+        cursor: pointer;
+      }
+    }
+    .btn-gray {
+      color: #000000 !important;
+      padding: 8px;
+      font-size: 12px;
+
+      @media screen and (max-width: 480px) {
+        font-size: 10px;
+      }
+    }
+  }
+
+  .right-part {
+    background: #ffffff;
+    border: 17px solid #dceee6;
+    border-radius: 10px;
+    min-height: 300px;
+    height: 100%;
+    padding: 10px;
+
+    .instruction {
+      font-size: 20px;
+      font-weight: 400;
+      @media screen and (max-width: 480px) {
+        font-size: 18px;
+      }
+    }
+
+    .tab-title {
+        font-weight: 600;
+        font-size: 33px;
+        line-height: 50px;
+        color: #000000;
+        @media screen and (max-width: 680px) {
+          font-size: 25px;
+        } 
+      }
+
+    .table {
+        tbody {
+          td {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            color: #000000;
+            border: 0;
+  
+            &.price-border {
+              border-top: 1px solid #000000;
+            }
+          }
+        }
+      }
+  }
+}

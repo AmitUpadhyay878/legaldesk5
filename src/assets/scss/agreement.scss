@@ -1,0 +1,45 @@
+.agrrement-container {
+    .title {color: #13413E;font-weight: 600;}
+  .left-part {
+    background: #ffffff;
+    border: 17px solid #dceee6;
+    border-radius: 10px;
+    padding: 0 20px;
+
+    .stamp-img {
+      position: relative;
+      .signature-content {
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+
+        .signature-button {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .btn-signature {
+            background: #d9d9d9;
+            border: 1px dashed #000000;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            width: 175px;
+            height: 60px;
+            padding: 10px;
+            text-align: justify;
+            color: #000000;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+          }
+        }
+      }
+    }
+  }
+}

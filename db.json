@@ -1,0 +1,294 @@
+{
+  "Docs": [
+    {
+      "id": 1,
+      "DocType": "Rental Agreement",
+      "status": "Signature Pending"
+    },
+    {
+      "id": 2,
+      "DocType": "Rental Agreement",
+      "status": "Draft"
+    },
+    {
+      "id": 3,
+      "DocType": "Rental Agreement",
+      "status": "Finalized"
+    },
+    {
+      "id": 4,
+      "DocType": "Rental Agreement",
+      "status": "Finalized"
+    },
+    {
+      "id": 5,
+      "DocType": "Rental Agreement",
+      "status": "Finalized"
+    },
+    {
+      "id": 6,
+      "DocType": "Rental Agreement",
+      "status": "Finalized"
+    }
+  ],
+  "data": [
+    {
+      "que": "Type of Joint venture ?",
+      "datepick": false,
+      "options": [
+        {
+          "id": 1,
+          "text": "abc"
+        },
+        {
+          "id": 2,
+          "text": "abc2"
+        },
+        {
+          "id": 3,
+          "text": "abc3"
+        }
+      ]
+    },
+    {
+      "datepick": true,
+      "que": "Date of Joint venture ?",
+      "options": [
+        {
+          "id": 1,
+          "text": "xyz"
+        },
+        {
+          "id": 2,
+          "text": "xyz2"
+        },
+        {
+          "id": 3,
+          "text": "xyz3"
+        }
+      ]
+    },
+    {
+      "datepick": false,
+      "que": "Place of Joint venture ?",
+      "options": [
+        {
+          "id": 1,
+          "text": "xyz"
+        },
+        {
+          "id": 2,
+          "text": "xyz2"
+        },
+        {
+          "id": 3,
+          "text": "xyz3"
+        }
+      ]
+    },
+    {
+      "datepick": false,
+      "que": "Name of the company ?",
+      "options": [
+        {
+          "id": 1,
+          "text": "xyz"
+        },
+        {
+          "id": 2,
+          "text": "xyz2"
+        },
+        {
+          "id": 3,
+          "text": "xyz3"
+        }
+      ]
+    },
+    {
+      "datepick": false,
+      "que": "Party name ?",
+      "options": [
+        {
+          "id": 1,
+          "text": "xyz"
+        },
+        {
+          "id": 2,
+          "text": "xyz2"
+        },
+        {
+          "id": 3,
+          "text": "xyz3"
+        }
+      ]
+    }
+  ],
+  "user": [
+    {
+      "firstname": "Ayanka",
+      "lastname": "Ganguly",
+      "email": "ayanka123@gmail.com",
+      "phone": "8511546616",
+      "address": "ahmedabad",
+      "pincode": "380015",
+      "tc": true,
+      "signers": [],
+      "id": 1
+    },
+    {
+      "firstname": "amit",
+      "lastname": "upadhyay",
+      "email": "amitupadhyay878@gmail.com",
+      "phone": "8511546616",
+      "address": "ahmedabad",
+      "pincode": "380015",
+      "tc": true,
+      "signers": [],
+      "id": 2
+    }
+  ],
+  "categories":[
+      {
+        "id":1,
+        "name":"Human Resources and Employment Law",
+        "subcategory":[
+          {
+            "id":1,
+            "name":"Employee Reimbursement Policy"
+          },
+          {
+            "id":2,
+            "name":"Employee Disciplinary Policy"
+          },
+          {
+            "id":3,
+            "name":"Social Media Policy"
+          },
+          {
+            "id":4,
+            "name":"Letter of Termination of Employment"
+          }
+        ]
+      },
+      {
+        "id":2,
+        "name":"Business Management",
+        "subcategory":[
+          {
+            "id":1,
+            "name":"Amendment Agreement"
+          },
+          {
+            "id":2,
+            "name":"Business Transfer Agreement"
+          },
+          {
+            "id":3,
+            "name":"Joint Venture Agreement"
+          },
+          {
+            "id":4,
+            "name":"Loan Agreement"
+          }
+        ]
+      },
+      {
+        "id":3,
+        "name":"Sales and Commerce",
+        "subcategory":[
+          {
+            "id":1,
+            "name":"Consultancy Agreement"
+          },
+          {
+            "id":2,
+            "name":"Franchise Agreement"
+          },
+          {
+            "id":3,
+            "name":"General Receipt"
+          },
+          {
+            "id":4,
+            "name":"Services Agreement"
+          }
+        ]
+      },
+      {
+        "id":4,
+        "name":"Commercial Property",
+        "subcategory":[
+          {
+            "id":1,
+            "name":"Consent to Sublease Agreement"
+          },
+          {
+            "id":2,
+            "name":"Sub-Lease Agreement for Commercial Property"
+          },
+          {
+            "id":3,
+            "name":"Commercial Lease / Lease for Office Premises"
+          }
+        ]
+      },
+      {
+        "id":5,
+        "name":"Housing and Property",
+        "subcategory":[
+          {
+            "id":1,
+            "name":"Eviction Notice"
+          },
+          {
+            "id":2,
+            "name":"Late Rent Notice"
+          },
+          {
+            "id":3,
+            "name":"Rent Receipt"
+          }
+        ]
+      },
+      {
+        "id":6,
+        "name":"Marriage, Divorce and Family",
+        "subcategory":[
+          {
+            "id":1,
+            "name":"Domestic Partnership Agreement"
+          },
+          {
+            "id":2,
+            "name":"Child Support Demand Letter"
+          },
+          {
+            "id":3,
+            "name":"Notice Demanding Payment of Alimony"
+          },
+          {
+            "id":4,
+            "name":"Travel Consent Form"
+          },
+          {
+            "id":5,
+            "name":"Last Will and Testament"
+          }
+        ]
+      },
+      {
+        "id":7,
+        "name":"Public, Government and Official",
+        "subcategory":[
+          {
+            "id":1,
+            "name":"RTI Application Form"
+          },
+          {
+            "id":2,
+            "name":"Notice for Change of Name to be Published in the Newspaper"
+          }
+        ]
+      }
+  ]
+}

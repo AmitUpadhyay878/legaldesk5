@@ -1,0 +1,12 @@
+// export const home = "/";
+export const docList = "/"
+export const home = "/home"
+export const dashboard = "/dashboard"
+export const signup = "/signup"
+export const login = "/login"
+export const docdetail = "/docdetail"
+export const docpayment = "/docpayment"
+export const legalexpert = "/legalexpert"
+export const agreement = "/agreement"
+export const otpauthentication = "/otpauthentication"
+export const pageNotFound = "*";

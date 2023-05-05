@@ -1,0 +1,109 @@
+// header
+.header {
+  background: #fbfbfb;
+  padding: 10px 0;
+
+  .navbar-brand {
+    // height: 100px;
+
+    img {
+      width: 250px;
+    }
+  }
+  .nav-link {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #00977e !important;
+
+    .btn {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 33px;
+      color: #00977e !important;
+    }
+  }
+
+  .user-profile {
+    .dropdown-toggle::after {
+      display: none;
+    }
+    .user-logo {
+      width: 60px;
+      height: 60px;
+      background: #c4c4c4;
+      border-radius: 50px;
+    }
+    .user-name {
+      strong {
+        color: #171b1e;
+      }
+      small {
+        color: #717579;
+      }
+    }
+  }
+  .flag_dropdown {
+    .flag-dropdown {
+      background: #dceee6;
+      border-radius: 50px;
+      line-height: 27px;
+      text-align: center;
+      color: #00a15d;
+      font-weight: 500;
+      font-size: 18px;
+
+      &:hover {
+        background: #dceee6;
+        color: #00a15d;
+      }
+    }
+    .dropdown-menu {
+      left: -100px !important;
+    }
+  }
+
+  .notification-dropdown {
+    .notification {
+      position: relative;
+
+      .notification-number {
+        position: absolute;
+        display: flex;
+        width: 24px;
+        height: 24px;
+        background: #2251f8;
+        border: 3px solid #fbfbfb;
+        color: #fff;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        top: -10px;
+        right: -5px;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 12px;
+      }
+
+      &.dropdown-toggle::after {
+        display: none;
+      }
+    }
+    .notification-list {
+      max-width: 250px;
+      width: 250px;
+
+      .dropdown-item {
+        font-size: 14px;
+        white-space: pre-wrap;
+      }
+    }
+    .dropdown-menu {
+      left: -100px !important;
+    }
+  }
+}
